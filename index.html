@@ -1,10 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Profile</title>   <!-- browser tab title -->
-    <meta charset="utf8">
+    <title>Profile</title> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">  <!-- Linking to CSS defines -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </head>
   <body>
-    <h2>Hello World1</h2>
+    <main id="container">
+      <aside id="overview">
+        <div id="avatar-wrapper">
+          <img src="https://tinyurl.com/yckszfep" alt="Ảnh có mặt Minh" width="200" height="200"/>
+          <h2>PHAM QUANG MINH</h2>
+        </div>
+        <div id="basic-info">
+          <ul>
+            <li>Age: 21</li>
+            <li>Sex: Male</li>
+            <li>Phone: 0967105498</li>
+            <li>Mail: minhphm37@gmail.com</li>
+            <li>Live: Ha Noi, VietNam</li>
+          </ul>
+        </div>
+      </aside>
+      <aside id="detail">
+        <ul>
+          <li class="detail-part">
+            <div class="detail-part-header">
+              <ion-icon name="heart"></ion-icon>
+              <h1>HOBBIES</h1>
+            </div>
+            <div class="detail-part-desc">
+              <p>Listening music, Playing VR/AR Games, Camping</p>
+            </div>
+          </li>
+          <li class="detail-part">
+            <div class="detail-part-header">
+              <ion-icon name="school"></ion-icon>
+              <h1>EDUCATION</h1>
+            </div>
+            <div class="detail-part-desc">
+              <p>ELECTRIC POWER UNIVERSITY - Major: Software Engineering</p>
+            </div>
+          </li>
+          <li class="detail-part">
+            <div class="detail-part-header">
+              <ion-icon name="rocket"></ion-icon>
+              <h1>TECH KNOWLEDGES / SKILLS</h1>
+            </div>
+            <div class="detail-part-desc">
+              <ul>
+                <li>Programming Languages: C/C++, Java, JavaScript</li>
+                <li>Forte Products: Mobile App (Android/React Native), C++ Games</li>
+              </ul>
+            </div>
+          </li>
+          <li class="detail-part">
+            <div class="detail-part-header">
+              <ion-icon name="chatbubbles"></ion-icon>
+              <h1>SOCIAL CONTACT</h1>
+            </div>
+            <div class="detail-part-desc">
+              <span>Github:</span>
+              <a href="https://github.com/minhkonzz">https://github.com/minhkonzz</a><br>
+              <span>Facebook:</span>
+              <a href="https://www.facebook.com/phamquang.minh.56/">https://www.facebook.com/phamquang.minh.56/</a>
+            </div>
+          </li>
+        </ul>
+      </aside>
+    </main>
   </body>
 </html>

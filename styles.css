@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Rubik&family=Staatliches&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { padding-top: 100px; }
+
+#container {
+    display: flex; 
+    width: 1200px; 
+    height: 700px; 
+    margin: 0 auto;
+    background-color: gray;
+    border-radius: 45px;
+    box-shadow: 0px 4px 15px gray;
+}
+
+#overview {
+    display: flex;
+    flex-direction: column;
+    flex: 3 0 0px;
+    border-radius: 45px 0px 0px 45px;
+}
+
+#detail {
+    display: flex;
+    flex: 8 0 0px;
+    background: linear-gradient(300deg, #d3cce3, #e9e4f0);
+    border-radius: 0px 45px 45px 0px;
+    padding-left: 30px;
+}
+
+#avatar-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 3 0 0px;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to left, #e6dada, #274046);
+    border-top-left-radius: 45px;
+}
+
+#avatar-wrapper img {
+    width: 180px;
+    height: 190px;
+    border-radius: 100px;
+}
+
+#avatar-wrapper h2 { color: white; }
+
+#basic-info {
+    display: flex;
+    flex: 4 0 0px;
+    background: linear-gradient(280deg, #e6dada, #274046);
+    border-bottom-left-radius: 45px;
+}
+
+#basic-info ul {
+    margin: 20px 40px;
+    list-style: none;
+    line-height: 3rem;
+}
+
+#basic-info ul li {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Poppins, sans-serif;
+    color: white;
+}
+
+#detail > ul { list-style: none; }
+
+.detail-part { margin-top: 50px; }
+
+.detail-part-header {
+    display: flex;
+    align-items: center;
+}
+
+.detail-part-header ion-icon {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    color: white;
+    border-radius: 100px;
+    background: linear-gradient(315deg, #e6dada, #274046 85%);
+}
+
+.detail-part-header h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 32px;
+    color: #274046;
+    margin-left: 20px;
+    float: right;
+}
+
+.detail-part-desc {
+    color: #444444;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 20px;
+    padding-left: 20px;
+    line-height: 1.5;
+}
+
+.detail-part-desc ul { 
+    margin-left: 15px; 
+    line-height: 1.8;
+}
+
+.detail-part-desc a { text-decoration: none; }
